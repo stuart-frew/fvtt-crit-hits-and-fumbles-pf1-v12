@@ -7,7 +7,7 @@
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.8.6",
    "url":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11",
-   "download":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/releases/download/2023.10.21/2023.10.21.zip",
+   "download":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/releases/download/Release/2023.10.21.zip",
    "manifest":"https://raw.githubusercontent.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/main/module.json",
    "packs": [
    {
