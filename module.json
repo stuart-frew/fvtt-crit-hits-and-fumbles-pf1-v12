@@ -1,19 +1,20 @@
 {   
-   "name": "critical-hits-and-fumbles-pf1",   
-   "title": "Critical Hits and Fumbles for PF1",   
+   "name": "critical-hits-and-fumbles-pf1-v11",   
+   "title": "Critical Hits and Fumbles for PF1 v11",   
    "description": "Rolltables and Buffs for rolling Crits and Fumbles",   
-   "author": "Nargath",
-   "version": "1.0.1",
+   "author": "Red Mop",
+   "version": "2023.10.21",
    "minimumCoreVersion": "0.7.9",
    "compatibleCoreVersion":"0.8.6",
-   "url":"https://github.com/Nargath/fvtt-crit-hits-and-fumbles-pf1",
-   "download":"https://github.com/Nargath/fvtt-crit-hits-and-fumbles-pf1/releases/download/1.0.1/1.0.1.zip",
-   "manifest":"https://raw.githubusercontent.com/Nargath/fvtt-crit-hits-and-fumbles-pf1/main/module.json",
+   "url":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11",
+   "download":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/releases/download/2023.10.21/2023.10.21.zip",
+   "manifest":"https://raw.githubusercontent.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/main/module.json",
    "packs": [
    {
       "name": "crithits",
       "label": "Critical Hits - PF1",
       "path": "packs/crithits.db",
+      "type": "RollTable",
       "entity": "Item",
       "module": "critical-hits-and-fumbles-pf1"
     },
@@ -21,6 +22,7 @@
       "name": "critfumbles",
       "label": "Critical Fumbles - PF1",
       "path": "packs/critfumbles.db",
+      "type": "Item",
       "entity": "Item",
       "module": "critical-hits-and-fumbles-pf1"
     },
@@ -28,6 +30,7 @@
       "name": "critrolls",
       "label": "Critical Rolltables - PF1",
       "path": "packs/critrolls.db",
+      "type": "RollTable",
       "entity": "RollTable",
       "module": "critical-hits-and-fumbles-pf1"
     }
