@@ -16,7 +16,7 @@
       "path": "packs/crithits.db",
       "type": "RollTable",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1",
+      "module": "critical-hits-and-fumbles-pf1-v11",
       "system": "pf1"
     },
     {
@@ -25,7 +25,7 @@
       "path": "packs/critfumbles.db",
       "type": "Item",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1",
+      "module": "critical-hits-and-fumbles-pf1-v11",
       "system": "pf1"
     },
     {
@@ -34,7 +34,7 @@
       "path": "packs/critrolls.db",
       "type": "RollTable",
       "entity": "RollTable",
-      "module": "critical-hits-and-fumbles-pf1",
+      "module": "critical-hits-and-fumbles-pf1-v11",
       "system": "pf1"
     }
   ]
