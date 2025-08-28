@@ -1,22 +1,25 @@
-{   
-   "name": "critical-hits-and-fumbles-pf1-v11",   
-   "title": "Critical Hits and Fumbles for PF1 v11",   
-   "description": "Rolltables and Buffs for rolling Crits and Fumbles",   
-   "author": "Red Mop",
-   "version": "2023.10.21",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion":"0.8.6",
-   "url":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11",
-   "download":"https://github.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/releases/download/Release/2023.10.21.zip",
-   "manifest":"https://raw.githubusercontent.com/redmop/fvtt-crit-hits-and-fumbles-pf1-v11/main/module.json",
-   "packs": [
-   {
+{
+  "name": "critical-hits-and-fumbles-pf1-v12",
+  "title": "Critical Hits and Fumbles for PF1 v12",
+  "description": "Rolltables and Buffs for rolling Crits and Fumbles",
+  "author": "Red Mop",
+  "version": "2023.10.21",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "12"
+  },
+  "url": "https://github.com/stuart-frew/fvtt-crit-hits-and-fumbles-pf1-v12",
+  "download": "https://github.com/octo-org/octo-repo/releases/latest/download/fvtt-crit-hits-and-fumbles-pf1-v12.zip",
+  "manifest": "https://github.com/octo-org/octo-repo/releases/latest/download/module.json",
+  "packs": [
+    {
       "name": "crithits",
       "label": "Critical Hits - PF1",
       "path": "packs/crithits.db",
       "type": "RollTable",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1-v11",
+      "module": "critical-hits-and-fumbles-pf1-v12",
       "system": "pf1"
     },
     {
@@ -25,7 +28,7 @@
       "path": "packs/critfumbles.db",
       "type": "Item",
       "entity": "Item",
-      "module": "critical-hits-and-fumbles-pf1-v11",
+      "module": "critical-hits-and-fumbles-pf1-v12",
       "system": "pf1"
     },
     {
@@ -34,8 +37,8 @@
       "path": "packs/critrolls.db",
       "type": "RollTable",
       "entity": "RollTable",
-      "module": "critical-hits-and-fumbles-pf1-v11",
+      "module": "critical-hits-and-fumbles-pf1-v12",
       "system": "pf1"
     }
   ]
- }
+}
