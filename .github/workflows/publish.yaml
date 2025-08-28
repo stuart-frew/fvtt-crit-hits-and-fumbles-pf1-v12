@@ -24,6 +24,6 @@ jobs:
       - name: create release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: ./fvtt-crit-hits-and-fumbles-pf1-v12.zip
+          artifacts: ./fvtt-crit-hits-and-fumbles-pf1-v12.zip,module.json
           tag: ${{ env.CURRENT_DATE }}
           name: Release ${{ env.CURRENT_DATE }}
