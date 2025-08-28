@@ -10,8 +10,8 @@
     "maximum": "12"
   },
   "url": "https://github.com/stuart-frew/fvtt-crit-hits-and-fumbles-pf1-v12",
-  "download": "https://github.com/octo-org/octo-repo/releases/latest/download/fvtt-crit-hits-and-fumbles-pf1-v12.zip",
-  "manifest": "https://github.com/octo-org/octo-repo/releases/latest/download/module.json",
+  "download": "https://github.com/stuart-frew/fvtt-crit-hits-and-fumbles-pf1-v12/releases/latest/download/fvtt-crit-hits-and-fumbles-pf1-v12.zip",
+  "manifest": "https://github.com/stuart-frew/fvtt-crit-hits-and-fumbles-pf1-v12/releases/latest/download/module.json",
   "packs": [
     {
       "name": "crithits",
