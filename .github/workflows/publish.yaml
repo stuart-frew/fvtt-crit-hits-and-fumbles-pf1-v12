@@ -1,0 +1,29 @@
+name: Build module
+
+on:
+  push:
+    branches:
+      - upgrade
+
+jobs:
+  buildModule:
+    name: Build module
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get tag_version
+        run: |
+          echo "CURRENT_DATE=$(date +%Y-%m-%dT%H:%M:%S)" >> $GITHUB_ENV
+
+      - name: zip module
+        run: |
+          zip -r fvtt-crit-hits-and-fumbles-pf1-v12.zip *
+
+      - name: create release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: ./fvtt-crit-hits-and-fumbles-pf1-v12.zip
+          tag: ${{ env.CURRENT_DATE }}
+          name: Release ${{ env.CURRENT_DATE }}
