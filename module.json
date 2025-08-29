@@ -14,7 +14,7 @@
       "name": "crithits",
       "label": "Critical Hits - PF1",
       "path": "packs/crithits.db",
-      "type": "RollTable",
+      "type": "Item",
       "entity": "Item",
       "module": "critical-hits-and-fumbles-pf1-v11",
       "system": "pf1"
