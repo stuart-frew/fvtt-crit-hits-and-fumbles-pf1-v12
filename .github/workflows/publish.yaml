@@ -3,7 +3,7 @@ name: Build module
 on:
   push:
     branches:
-      - upgrade
+      - main
 
 jobs:
   buildModule:
